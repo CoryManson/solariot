@@ -9,7 +9,7 @@ slave = 0x01
 model = "sungrow-sh5k"
 timeout = 3
 scan_interval = 10
-location = "Home"
+location = "Home" 
 
 # Optional:
 dweepy_uuid = "random-uuid"
