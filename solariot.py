@@ -384,7 +384,7 @@ def load_sma_register(registers):
             logging.error(f"{thisdate}: Connection not possible, check settings or connection")
             return
     
-        message = BinaryPayloadDecoder.fromRegisters(received.registers, endian=Endian.Big)
+        message = BinaryPayloadDecoder.fromRegisters(received.registers, byteorder=Endian.Big)
 
         # Provide the correct result depending on the defined datatype
         if type == "S32":
@@ -546,9 +546,9 @@ while True:
 
     if flux_client is not None:
         metrics = {
-            "measurement": "Sungrow",
+            "measurement": config.influxdb_measurement,
             "tags": {
-                "location": "Gabba",
+                "location": config.location,
             },
             "fields": inverter,
         }

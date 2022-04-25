@@ -9,6 +9,7 @@ slave = 0x01
 model = "sungrow-sh5k"
 timeout = 3
 scan_interval = 10
+location = "Home"
 
 # Optional:
 dweepy_uuid = "random-uuid"
@@ -23,6 +24,7 @@ influxdb_port = 8086
 influxdb_user = "user"
 influxdb_password = "password"
 influxdb_database = "inverter"
+influxdb_measurement = "sma-10kw"
 influxdb_ssl = True
 influxdb_verify_ssl = False
 
