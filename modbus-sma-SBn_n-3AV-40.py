@@ -26,7 +26,10 @@ sma_registers = [
   ['31257 - Grid voltage L1 (V)',31257,'U32','FIX2'],
   ['31253 - Grid voltage L2 (V)',31253,'U32','FIX2'],
   ['31255 - Grid voltage L3 (V)',31255,'U32','FIX2'],
-  ['30775 - Total PV Power (W)',30775,'S32','FIX0']
+  ['30775 - Total PV Power (W)',30775,'S32','FIX0'],
+  ['30777 - PV Power L1 (W)',30777,'S32','FIX0'],
+  ['30779 - PV Power L2 (W)',30779,'S32','FIX0'],
+  ['30781 - PV Power L3 (W)',30781,'S32','FIX0']
 ]
 
 # scan is not used for SMA inverters but solariot.py expects it to exist
