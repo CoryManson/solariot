@@ -17,6 +17,8 @@ sma_registers = [
   ['30535 - Daily yield (Wh)',30535,'U32','FIX0'],
   ['30537 - Daily yield (kWh)',30537,'U32','FIX0'],
   ['30539 - Daily yield (MWh)',30539,'U32','FIX0'],
+  ['30581 - Total Grid feed-in counter reading (Wh)',30581,'U32','FIX0'],
+  ['30865 - Total Power draw from grid (W)',30865,'S32','FIX0'],
   ['31265 - Power draw from grid L1 (W)',31265,'U32','FIX0'],
   ['31267 - Power draw from grid L2 (W)',31267,'U32','FIX0'],
   ['31269 - Power draw from grid L3 (W)',31269,'U32','FIX0'],
